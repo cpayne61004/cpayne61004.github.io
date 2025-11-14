@@ -144,7 +144,7 @@ function valizip()
   }
   else
   {
-    if(x.match(/^[1-9-]+$/))
+    if(x.match(/[1-9-]+$/))
     {
     document.getElementById("citystatezip_error").innerHTML = "";
     }
