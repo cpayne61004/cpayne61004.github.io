@@ -166,7 +166,7 @@ function valiphone()
   }
   else
   {
-    if(x.match(/^[1-9-]+$/))
+    if(x.match(/[1-9-]+$/))
     {
     document.getElementById("phone_error").innerHTML = "";
     }
@@ -364,3 +364,4 @@ const minDate = new Date(currday.getFullYear() - 120, currday.getMonth(), currda
 const birthdateInput = document.getElementById("birthdate");
 birthdateInput.setAttribute('max', maxDate);
 birthdateInput.setAttribute('min', minDate);
+
