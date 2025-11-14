@@ -1,0 +1,82 @@
+/*
+    Name: Carter Payne
+    File: style-3.css
+    Date Created: 2025-09-20
+    Date Updated: 2025-11-10
+    Description: CSS Style File for MIS 3371 
+*/
+body {
+    background-color: rgb(115, 171, 245);
+    color: rgb(80, 0, 0);
+    font-family: "Times New Roman", Times, serif;
+}
+.patientregistrations {
+    font-size: 300%;
+    color: rgb(255, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.divider {
+    height: 4px;
+    background-color: blue;
+}
+.halfdivider {
+    height: 4px;
+    background-color: blue;
+    width:50%;
+}
+.bodytitle {
+    font-size:150%;
+    margin: 50px;
+    text-align: left;
+}
+.body {
+    text-align: center;
+    font-size:120%;
+}
+.footer {
+    text-align: left;
+    font-size:75%;
+    margin: 50px;
+
+}
+
+table.output, tr.output, td.output{
+    border-style: solid;
+    border-color: blue;
+    background-color: lightblue;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 20px;
+    text-align: center;
+}
+td.outputdata {
+    background-color: mintcream;
+    padding: 17px;
+    text-align: center;
+}
+#painlevel {
+    accent-color: orangered;
+    width: 25%;
+    
+}
+#displaypain {
+    color: orangered;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+#thankyou {
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.validations {
+    color: black;
+    font-weight: bold;
+}
+.currentdate{
+    font-weight: bold;
+    font-size: 25px;
+    color: black;
+}
