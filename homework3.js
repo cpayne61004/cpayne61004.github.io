@@ -19,7 +19,7 @@ function valifirstname()
   }
   else
   {
-    if(x.match(/[a-zA-Z'-]+$/))
+    if(x.match(/[a-zA-Z'-]+/))
     {
     document.getElementById("name_error").innerHTML = "";
     }
@@ -36,7 +36,7 @@ function valimiddlein()
   x = document.getElementById("midin").value;
   if(x.length>0)
   {
-    if(x.match(/[a-zA-Z]+$/))
+    if(x.match(/[a-zA-Z]+/))
     {
     document.getElementById("name_error").innerHTML = "";
     }
@@ -58,7 +58,7 @@ function valilastname()
   }
   else
   {
-    if(x.match(/[a-zA-Z3-5'-]+$/))
+    if(x.match(/[a-zA-Z3-5'-]+/))
     {
     document.getElementById("name_error").innerHTML = "";
     }
@@ -80,7 +80,7 @@ function valisocsec()
   }
   else
   {
-    if(x.match(/[1-9-]+$/))
+    if(x.match(/[1-9-]+/))
     {
     document.getElementById("socsec_error").innerHTML = "";
     }
@@ -144,7 +144,7 @@ function valizip()
   }
   else
   {
-    if(x.match(/[1-9-]+$/))
+    if(x.match(/[1-9-]+/))
     {
     document.getElementById("citystatezip_error").innerHTML = "";
     }
@@ -166,7 +166,7 @@ function valiphone()
   }
   else
   {
-    if(x.match(/[1-9-]+$/))
+    if(x.match(/[1-9-]+/))
     {
     document.getElementById("phone_error").innerHTML = "";
     }
@@ -188,7 +188,7 @@ function valiemail()
   }
   else
   {
-    if(x.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+$/))
+    if(x.match(/[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]+/))
     {
     document.getElementById("email_error").innerHTML = "";
     }
@@ -210,7 +210,7 @@ function valiuserid()
   }
   else
   {
-    if(x.match(/^[^0-9]+[a-zA-Z0-9._%+-]+$/))
+    if(x.match(/^[^0-9]+[a-zA-Z0-9._%+-]+/))
     {
     document.getElementById("userid_error").innerHTML = "";
     }
@@ -363,4 +363,5 @@ const maxDate = currday.toISOString().split('T')[0];
 const minDate = new Date(currday.getFullYear() - 120, currday.getMonth(), currday.getDate()).toISOString().split('T')[0];
 const birthdateInput = document.getElementById("birthdate");
 birthdateInput.setAttribute('max', maxDate);
+
 birthdateInput.setAttribute('min', minDate);
