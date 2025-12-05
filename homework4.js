@@ -1,7 +1,7 @@
 // Name: Carter Payne
 // File: homework3.js
 // Date Created: 2025-10-20
-// Date Updated: 2025-11-10
+// Date Updated: 2025-12-02
 // Description: JavaScript for Patient Form
 // To start error check
 function errors()
@@ -364,5 +364,6 @@ const minDate = new Date(currday.getFullYear() - 120, currday.getMonth(), currda
 const birthdateInput = document.getElementById("birthdate");
 birthdateInput.setAttribute('max', maxDate);
 birthdateInput.setAttribute('min', minDate);
+
 
 
