@@ -366,3 +366,4 @@ birthdateInput.setAttribute('max', maxDate);
 birthdateInput.setAttribute('min', minDate);
 
 
+
