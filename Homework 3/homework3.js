@@ -365,3 +365,4 @@ const birthdateInput = document.getElementById("birthdate");
 birthdateInput.setAttribute('max', maxDate);
 birthdateInput.setAttribute('min', minDate);
 
+
